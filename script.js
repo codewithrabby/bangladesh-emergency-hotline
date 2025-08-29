@@ -59,7 +59,7 @@
     }
 
     // Clear Call History button
-    
+
     const clearBtn = document.querySelector("#callHistory").previousElementSibling.querySelector("button");
     clearBtn.addEventListener("click", () => {
         callHistoryContainer.innerHTML = "";
@@ -90,9 +90,4 @@
             });
         });
     }
-
-
-
-
-
 
